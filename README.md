@@ -1,8 +1,17 @@
 # 超簡單一鍵推播 591 租屋資訊完全免 Coding－透過 Google Sheet 與 LINE Notify 
 
-fork from 
-https://github.com/dang113108/591_rent
-https://github.com/flier268/591_rent
+change request api url :
+
+`https://bff-house.591.com.tw/v1/web/rent/list?regionid=8&_v_=456c1961b8&timestamp=1726972183153&sectionid=101&kind=2&other=lift&order=posttime&orderType=desc&multiNotice=all_sex`
+
+fork from :
+[dang113108/591_rent](https://github.com/dang113108/591_rent)
+[https://github.com/flier268/591_rent](https://github.com/flier268/591_rent)
+
+to do : 
+
+1. 使用 Python 改寫此專案作為練習。
+2. 加入更多篩選條件。
 
 ----
 
