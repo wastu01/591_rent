@@ -1,5 +1,9 @@
 # 超簡單一鍵推播 591 租屋資訊完全免 Coding－透過 Google Sheet 與 LINE Notify 
 
+fork from 
+https://github.com/dang113108/591_rent
+https://github.com/flier268/591_rent
+
 ----
 
 ### 2022/01/23 更新：
