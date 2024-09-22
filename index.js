@@ -12,8 +12,10 @@
 */ 
 
 const list_sheet_name = "list";
-const line_notify_token = "LINE_NOTIFY_TOKEN";
-const search_city = "台北市";
+const line_notify_token = "token";
+const search_city = "city";
+
+// https://bff-house.591.com.tw/v1/web/rent/list?regionid=8&_v_=456c1961b8&timestamp=1726972183153&sectionid=101&kind=2&other=lift&order=posttime&orderType=desc&multiNotice=all_sex
 
 const search_querys = [
   //藍線
@@ -104,7 +106,7 @@ function get_formated_rent_info(search_sheet, rent_result) {
     format_rent_array.push(tmp_array);
 
     let line_message = `${rent_post_id}\n${rent_title}\n${rent_url}\n$ ${rent_price}\n${rent_section_name} ${rent_street_name}\n${rent_location}\n${surrounding}\n${rent_area}坪，${rent_floor}`;
-    send_to_line_notify(line_message, rent_cover);
+    // send_to_line_notify(line_message, rent_cover);
   }
   return format_rent_array;
 }
@@ -239,7 +241,7 @@ function get_rent_result(query) {
 
   const response = UrlFetchApp.fetch(rent_search_url, options);
 
-  // Logger.log(`Rent Result: ${response.getContentText()}`);
+  Logger.log(`Rent Result: ${response.getContentText()}`); 
 
   return response.getContentText()
 }
