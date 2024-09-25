@@ -6,12 +6,15 @@ change request api url :
 
 fork from :
 [dang113108/591_rent](https://github.com/dang113108/591_rent)
-[https://github.com/flier268/591_rent](https://github.com/flier268/591_rent)
+
+
 
 to do : 
 
-1. 使用 Python 改寫此專案作為練習。
-2. 加入更多篩選條件。
+1. 使用 Python 作為練習。
+2. 參考 [https://github.com/flier268/591_rent](https://github.com/flier268/591_rent) 專案的做法加入更多篩選條件。
+
+Python 版本參考這一篇教學：[[Python爬蟲實例] 591 租屋網 - 搜尋房屋與房屋詳情](https://blog.jiatool.com/posts/house591_spider/)
 
 ----
 
