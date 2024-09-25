@@ -4,6 +4,8 @@ change request api url :
 
 `https://bff-house.591.com.tw/v1/web/rent/list?regionid=8&_v_=456c1961b8&timestamp=1726972183153&sectionid=101&kind=2&other=lift&order=posttime&orderType=desc&multiNotice=all_sex`
 
+org url : `https://rent.591.com.tw/list?section=101,103&kind=2&other=lift&sort=posttime_desc&region=8&notice=not_cover,all_sex`
+
 fork from :
 [dang113108/591_rent](https://github.com/dang113108/591_rent)
 
@@ -20,9 +22,12 @@ Python 版本參考這一篇教學：[[Python爬蟲實例] 591 租屋網 - 搜�
 https://medium.com/jacky-life/aws-雲端-591-租屋爬蟲架構-4a17936aea1a
 
 
-後來發現原來有人在做 [開放台灣民間租屋資料](https://rentalhouse.g0v.ddio.io)，
+後來發現原來有人在做 [開放台灣民間租屋資料](https://rentalhouse.g0v.ddio.io)，[台灣民間租屋資料，開源上線中---Ddio](https://medium.com/@ddio/announcing-open-tw-rental-data-b81039759128)，有提供過往資料集下載。
 
-[台灣民間租屋資料，開源上線中---Ddio](https://medium.com/@ddio/announcing-open-tw-rental-data-b81039759128)
+
+HouseFun 網站網址 python 租屋爬蟲
+
+https://readmoo.com/book/210281628000101?srsltid=AfmBOopkJb-D7Ik00Wr53E8J3yD4Cv35VXyEHNsA10-X7ixdUOlRQutc
 
 
 ----
