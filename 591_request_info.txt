@@ -1,0 +1,45 @@
+
+Request URL:
+https://bff-house.591.com.tw/v1/web/rent/list?regionid=8&_v_=456c1961b8&timestamp=1727231940172&sectionid=101,103&kind=2&other=lift&order=posttime&orderType=desc&multiNotice=not_cover,all_sex
+
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 203.69.66.146:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Response Headers:
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 25 Sep 2024 02:39:09 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: webp=1; Domain=.591.com.tw; Path=/
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: https://rent.591.com.tw
+Access-Control-Allow-Headers: Accept,Access-Control-Allow-Headers,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,undefined,X-CSRF-Token,Origin,device,deviceid,TOKEN,USER-ID,ADMIN-ID,ms-source,access-token,refresh-token,Sentry-Trace,Baggage,role,encrypt,g-recaptcha-token,g-recaptcha-action,g-recaptcha-response,x-debug-score,new-signature,app-id
+Access-Control-Allow-Methods: GET,POST,PUT,DELETE,PATCH,OPTIONS
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+
+Request Headers:
+GET /v1/web/rent/list?regionid=8&_v_=456c1961b8&timestamp=1727231940172&sectionid=101,103&kind=2&other=lift&order=posttime&orderType=desc&multiNotice=not_cover,all_sex HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Cache-Control: no-cache
+Connection: keep-alive
+Host: bff-house.591.com.tw
+Origin: https://rent.591.com.tw
+Pragma: no-cache
+Referer: https://rent.591.com.tw/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+device: pc
+deviceid: qi0m9bc17l072m4v21ld8tm2f5
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
