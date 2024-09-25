@@ -14,7 +14,16 @@ to do :
 1. 使用 Python 作為練習。
 2. 參考 [https://github.com/flier268/591_rent](https://github.com/flier268/591_rent) 專案的做法加入更多篩選條件。
 
-Python 版本參考這一篇教學：[[Python爬蟲實例] 591 租屋網 - 搜尋房屋與房屋詳情](https://blog.jiatool.com/posts/house591_spider/)
+Python 版本參考這一篇教學：[[Python爬蟲實例] 591 租屋網 - 搜尋房屋與房屋詳情](https://blog.jiatool.com/posts/house591_spider/)，* Request url 有變更。
+
+其他人的應用：
+https://medium.com/jacky-life/aws-雲端-591-租屋爬蟲架構-4a17936aea1a
+
+
+後來發現原來有人在做 [開放台灣民間租屋資料](https://rentalhouse.g0v.ddio.io)，
+
+[台灣民間租屋資料，開源上線中---Ddio](https://medium.com/@ddio/announcing-open-tw-rental-data-b81039759128)
+
 
 ----
 
